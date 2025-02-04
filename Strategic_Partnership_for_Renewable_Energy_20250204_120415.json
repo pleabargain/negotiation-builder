@@ -1,0 +1,129 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "ABC123",
+      "topic": {
+        "title": "Strategic Partnership for Renewable Energy",
+        "description": "A multinational energy company wants to partner with a leading renewable energy firm to develop and implement large-scale solar and wind farms in Africa.",
+        "context": "The African energy market is rapidly expanding, driven by increasing demand for electricity and growing concerns about climate change. The multinational energy company sees an opportunity to expand its operations into the African market and tap into the region's abundant renewable energy resources.",
+        "industry": "Energy",
+        "expectedTimeframe": "6-12 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "Global Energy Inc.",
+          "role": "Investor and Operator",
+          "interests": [
+            "Increasing market share in Africa",
+            "Access to new renewable energy resources",
+            "Long-term partnerships"
+          ],
+          "constraints": [
+            "Limited financial resources for large-scale investments",
+            "Need to balance short-term profits with long-term sustainability goals"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "SolarMax Energy Solutions",
+          "role": "Operator and Developer",
+          "interests": [
+            "Partnerships that drive technological innovation",
+            "Access to new markets and customers",
+            "Collaboration on large-scale projects"
+          ],
+          "constraints": [
+            "Limited capacity for large-scale investments due to existing project pipeline",
+            "Need to maintain control over project development and operations"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Disagreement over equity participation",
+          "severity": "medium",
+          "impact": "Potential delay in project development and increased costs",
+          "relatedPoints": [
+            "Difference in vision for the partnership",
+            "Concerns about SolarMax's technical expertise"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Equity Participation",
+          "currentPosition": {
+            "party1Position": "Global Energy Inc. wants a 60% equity stake in the partnership",
+            "party2Position": "SolarMax Energy Solutions is willing to offer 40% equity participation"
+          },
+          "acceptableRange": {
+            "minimum": "50% equity participation for SolarMax",
+            "maximum": "65% equity participation for Global Energy Inc.",
+            "preferredOutcome": "60% equity participation split (50/50) for a long-term partnership"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Project Development Timeline",
+          "currentPosition": {
+            "party1Position": "Global Energy Inc. wants to accelerate project development and start construction within 6 months",
+            "party2Position": "SolarMax Energy Solutions is willing to consider a development timeline of 9-12 months"
+          },
+          "acceptableRange": {
+            "minimum": "9-month development timeline for SolarMax",
+            "maximum": "7.5-month development timeline for Global Energy Inc.",
+            "preferredOutcome": "8.5-month development timeline with regular project updates and progress reviews"
+          },
+          "priority": "medium",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Global Energy Inc.'s requirement for a minimum annual return on investment of 15% to justify investment in the partnership",
+          "rationale": "To ensure long-term financial viability and alignment with Global Energy Inc.'s investment strategy",
+          "impact": "Potential impact on SolarMax's ability to secure additional funding or investments in future projects"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "SolarMax fails to meet the agreed-upon equity participation threshold of 50% within the first year",
+            "threshold": "50.01%",
+            "reasoning": "If SolarMax fails to deliver on its commitments, Global Energy Inc. may reassess its investment strategy and consider alternative partnerships"
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Global Energy Inc. unilaterally increases the equity participation stake above 60% without mutual agreement",
+            "threshold": "61%",
+            "reasoning": "If Global Energy Inc. takes such an action, SolarMax may consider walking away from the partnership to protect its interests"
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a sustainable and profitable renewable energy business in Africa",
+            "importance": "critical",
+            "timeframe": "10-15 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular project updates, progress reviews, and collaborative problem-solving to ensure successful partnership outcomes"
+        }
+      },
+      "tactics": null
+    }
+  ]
+}

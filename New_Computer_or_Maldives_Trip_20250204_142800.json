@@ -1,0 +1,166 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "A1234567890",
+      "topic": {
+        "title": "New Computer or Maldives Trip",
+        "description": "The husband is looking for a new computer, but his wife wants to go on a romantic trip to the Maldives. They need to decide which one to prioritize.",
+        "context": "They have been married for 5 years and have a combined income of $100,000 per year. The husband works as an accountant and earns $60,000 per year, while the wife is a freelance writer earning $40,000 per year. They have two children under the age of 10.",
+        "industry": "Personal Finance",
+        "expectedTimeframe": "2-3 hours"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "John (Husband)",
+          "role": "Primary Earner",
+          "interests": [
+            "New computer for work",
+            "Improved home entertainment system"
+          ],
+          "constraints": [
+            "Limited budget",
+            "Prioritizing family expenses"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "Emily (Wife)",
+          "role": "Secondary Earner",
+          "interests": [
+            "Romantic getaway to Maldives",
+            "Relaxation and stress relief"
+          ],
+          "constraints": [
+            "Family expenses, limited travel budget"
+          ],
+          "authorityLevel": "limited"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Trade-off between new computer for work and romantic trip to Maldives",
+          "severity": "high",
+          "impact": "Impact on relationship dynamics and individual happiness",
+          "relatedPoints": [
+            "Different priorities, conflicting interests"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Compromise on computer budget or trip duration",
+          "currentPosition": {
+            "party1Position": "$5,000 computer budget, but no compromise on travel time",
+            "party2Position": "No compromise on travel time, but willing to discuss computer budget"
+          },
+          "acceptableRange": {
+            "minimum": "$3,000 computer budget, 7-day trip duration",
+            "maximum": "$7,000 computer budget, 5-day trip duration",
+            "preferredOutcome": "Compromise on both: $4,500 computer budget, 6-day trip duration"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The husband's work requires a new computer within the next year to meet performance expectations.",
+          "rationale": "Company policy and industry standards require regular hardware upgrades to maintain productivity.",
+          "impact": "Impact on job security and career advancement"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Insufficient computer budget or outdated technology",
+            "threshold": "$2,000",
+            "reasoning": "Inadequate resources to meet work demands"
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Unrealistic trip duration or lack of relaxation time",
+            "threshold": "4 days",
+            "reasoning": "Insufficient downtime for rejuvenation and stress relief"
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Maintain a healthy work-life balance",
+            "importance": "critical",
+            "timeframe": "Next 2-3 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular date nights and shared family activities"
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$5,000 computer budget, but no compromise on travel time",
+          "anchoringStrategy": "Establishing a clear boundary on the computer budget to set expectations"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "First concession: Discuss alternative destinations for the trip",
+              "possibleConcessions": [
+                "Consider a shorter trip or a staycation"
+              ],
+              "triggerConditions": [
+                "Party 2 expresses interest in alternative options"
+              ]
+            },
+            {
+              "stage": "Second concession: Explore flexible work arrangements for the husband",
+              "possibleConcessions": [
+                "Telecommuting, flexible hours, or job sharing"
+              ],
+              "triggerConditions": [
+                "Party 1 agrees to consider flexible work arrangements"
+              ]
+            }
+          ],
+          "pacing": "Gradual concessions, with an emphasis on finding mutually beneficial solutions"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Discussing the benefits of compromise and finding middle ground",
+            "fallbackOptions": null
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are our individual priorities?",
+            "How will this decision impact our family and work life?"
+          ],
+          "observationFocus": [
+            "Pay attention to body language, tone of voice, and verbal cues during the negotiation process."
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Seek outside mediation or counseling",
+            "conditions": "When both parties feel stuck or unable to reach an agreement",
+            "risks": "Involving a third-party mediator may add stress and complexity to the negotiation process."
+          },
+          {
+            "approach": "Suggest a 'win-win' solution",
+            "conditions": "When both parties are willing to compromise, but still need to find a mutually beneficial solution",
+            "risks": "The 'win-win' solution may not be perceived as fair or satisfactory by either party."
+          }
+        ]
+      }
+    }
+  ]
+}

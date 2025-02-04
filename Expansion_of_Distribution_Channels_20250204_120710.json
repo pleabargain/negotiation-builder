@@ -1,0 +1,154 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation_001",
+      "topic": {
+        "title": "Expansion of Distribution Channels",
+        "description": "Our company is looking to expand its distribution channels for its flagship product, XYZ. We are in talks with a potential partner who has offered to help us achieve this goal.",
+        "context": "The current market conditions have led to an increased demand for our product, and we believe that expanding our distribution channels will enable us to meet this demand more effectively.",
+        "industry": "Retail and Distribution",
+        "expectedTimeframe": "6 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "ABC Inc.",
+          "role": "Original proposer",
+          "interests": [
+            "Increased market share",
+            "Improved product visibility"
+          ],
+          "constraints": [
+            "Limited resources for expansion"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "XYZ Partners LLC",
+          "role": "Potential partner",
+          "interests": [
+            "Competitive advantage",
+            "Diversified product portfolio"
+          ],
+          "constraints": [
+            "Risk of market saturation"
+          ],
+          "authorityLevel": "limited"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Competition from new entrants in the market",
+          "severity": "medium",
+          "impact": "Increased competition may lead to decreased market share.",
+          "relatedPoints": [
+            "Market trends",
+            "Industry analysis"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Distribution Channel Expansion",
+          "currentPosition": {
+            "party1Position": "ABC Inc. is open to exploring different distribution channels, including online platforms.",
+            "party2Position": "XYZ Partners LLC suggests that ABC Inc. should focus on traditional retail channels for maximum visibility."
+          },
+          "acceptableRange": {
+            "minimum": "Well-established partnerships",
+            "maximum": "Exploration of new and emerging markets",
+            "preferredOutcome": "Strategic partnership with a mix of online and offline distribution"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Quality control standards must be maintained across all distribution channels.",
+          "rationale": "ABC Inc. prioritizes maintaining high-quality products to ensure customer satisfaction and loyalty.",
+          "impact": "Failure to maintain quality standards could lead to reputational damage."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Any proposal that compromises on product quality or market share",
+            "threshold": "20% reduction in market share",
+            "reasoning": "ABC Inc. cannot afford to sacrifice its competitive edge."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Any proposal that requires XYZ Partners LLC to invest more than 30% of its resources into the partnership.",
+            "threshold": "30% resource commitment",
+            "reasoning": "XYZ Partners LLC has limited resources for expansion and cannot afford to overextend itself."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish ABC Inc. as a leading brand in the market within the next 3 years.",
+            "importance": "critical",
+            "timeframe": "2025"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular business reviews and joint marketing initiatives."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "ABC Inc. proposes a comprehensive distribution channel expansion plan, including online platforms.",
+          "anchoringStrategy": "Using market trends to anchor the discussion"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Exploring different distribution channels",
+              "possibleConcessions": [
+                "Focusing on traditional retail channels"
+              ],
+              "triggerConditions": [
+                "XYZ Partners LLC expresses interest in online platforms"
+              ]
+            }
+          ],
+          "pacing": "Gradual introduction of new channels"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Highlighting the mutual benefits of collaboration",
+            "fallbackOptions": [
+              "Using industry reports to support our proposal"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are your thoughts on the market trends in the industry?",
+            "How do you see ABC Inc. fitting into your distribution strategy?"
+          ],
+          "observationFocus": [
+            "Noticing XYZ Partners LLC's emphasis on certain distribution channels"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Re-evaluating our priorities and adjusting our expectations",
+            "conditions": "A willingness from both parties to revisit previous discussions",
+            "risks": "Potential overextension of resources, impact on quality standards"
+          }
+        ]
+      }
+    }
+  ]
+}
