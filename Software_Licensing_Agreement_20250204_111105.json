@@ -1,0 +1,178 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation-001",
+      "topic": {
+        "title": "Software Licensing Agreement",
+        "description": "A company is seeking to license its proprietary software to a small business in exchange for an annual fee and a percentage of the company's revenue.",
+        "context": "The software is used by the small business to manage its operations, and the company has developed a strong relationship with them through previous collaborations.",
+        "industry": "Software Licensing",
+        "expectedTimeframe": "6 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "ABC Inc.",
+          "role": "Licensor of proprietary software",
+          "interests": [
+            "Revenue sharing, flexibility in licensing terms"
+          ],
+          "constraints": [
+            "Limited budget for annual fees",
+            "Desire to maintain control over software usage"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "XYZ Corp.",
+          "role": "Licensee of proprietary software",
+          "interests": [
+            "Affordable licensing terms, flexibility in software customization"
+          ],
+          "constraints": [
+            "Limited resources for ongoing software maintenance",
+            "Concerns about software security"
+          ],
+          "authorityLevel": "limited"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Disagreement over the percentage of revenue to be shared by ABC Inc.",
+          "severity": "high",
+          "impact": "Impact on the relationship between the two parties and the feasibility of the deal.",
+          "relatedPoints": [
+            "Revenue sharing",
+            "Licensing terms"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Annual licensing fee",
+          "currentPosition": {
+            "party1Position": "$100,000",
+            "party2Position": "$50,000"
+          },
+          "acceptableRange": {
+            "minimum": "$80,000",
+            "maximum": "$120,000",
+            "preferredOutcome": "$90,000"
+          },
+          "priority": "medium",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Revenue sharing percentage",
+          "currentPosition": {
+            "party1Position": "20%",
+            "party2Position": "10%"
+          },
+          "acceptableRange": {
+            "minimum": "18%",
+            "maximum": "22%",
+            "preferredOutcome": "20%"
+          },
+          "priority": "high",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The software must be used exclusively for the purposes stated in the agreement.",
+          "rationale": "To maintain control over the software's usage and prevent unauthorized modifications.",
+          "impact": "Potential impact on the relationship between the two parties if the terms are not met."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Revenue sharing percentage is below 18%",
+            "threshold": "10%",
+            "reasoning": "If the revenue sharing percentage is too low, it may not be worth ABC Inc.'s while to license the software."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Annual licensing fee exceeds $150,000",
+            "threshold": "$180,000",
+            "reasoning": "If the annual licensing fee is too high, XYZ Corp. may need to explore alternative software options."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a long-term partnership between ABC Inc. and XYZ Corp.",
+            "importance": "critical",
+            "timeframe": "5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "ongoing collaboration and joint innovation."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$90,000 per year for revenue sharing of 20%",
+          "anchoringStrategy": "Using a high but reasonable offer to set the tone for the negotiation."
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "First proposal",
+              "possibleConcessions": [
+                "Lowering the annual fee"
+              ],
+              "triggerConditions": [
+                "Party 1 makes an opening offer"
+              ]
+            },
+            {
+              "stage": "Second counteroffer",
+              "possibleConcessions": [
+                "Increasing revenue sharing percentage"
+              ],
+              "triggerConditions": [
+                "Party 2 rejects Party 1's initial offer"
+              ]
+            }
+          ],
+          "pacing": "gradual"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "social-proof",
+            "applicationContext": "Highlighting the benefits of the software and the partnership between the two companies.",
+            "fallbackOptions": [
+              "Using data and market research to support the argument"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are your company's goals for the next year?",
+            "How do you plan to use the software?"
+          ],
+          "observationFocus": [
+            "Understanding their business needs, constraints, and preferences."
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Proposing a compromise on revenue sharing percentage",
+            "conditions": "If the parties are close to an agreement but can't reach a mutually beneficial solution.",
+            "risks": "May not be acceptable to either party, potentially causing more harm than good."
+          }
+        ]
+      }
+    }
+  ]
+}

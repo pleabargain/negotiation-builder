@@ -1,0 +1,152 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "N001",
+      "topic": {
+        "title": "Supply Agreement for Pharmaceuticals",
+        "description": "A company, PharmaCorp, wants to negotiate a supply agreement with a manufacturer, MedTech Inc., for pharmaceuticals.",
+        "context": "PharmaCorp is looking to expand its product portfolio and needs a reliable supplier. MedTech Inc. has been supplying the company's existing products but is increasing prices due to rising raw material costs.",
+        "industry": "Pharmaceuticals",
+        "expectedTimeframe": "6-12 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "PharmaCorp",
+          "role": "Buyer",
+          "interests": [
+            "Reliable supply, Competitive pricing, Long-term partnership"
+          ],
+          "constraints": [
+            "Limited budget, Increasing regulatory compliance costs"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "MedTech Inc.",
+          "role": "Seller",
+          "interests": [
+            "Increased revenue, Improved pricing terms for future products"
+          ],
+          "constraints": [
+            "Rising raw material costs, Potential loss of market share"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Price increase due to rising raw material costs",
+          "severity": "medium",
+          "impact": "Potential impact on PharmaCorp's profit margins and competitiveness",
+          "relatedPoints": [
+            "Supply chain disruptions",
+            "Loss of market share"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Price per unit",
+          "currentPosition": {
+            "party1Position": "$100 per unit (current price)",
+            "party2Position": "$120 per unit (requested increase)"
+          },
+          "acceptableRange": {
+            "minimum": "$105 per unit ( lowest acceptable)",
+            "maximum": "$115 per unit (highest acceptable)",
+            "preferredOutcome": "$110 per unit (ideal price for both parties)"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Minimum order quantity",
+          "rationale": "To ensure efficient supply chain management and minimize waste.",
+          "impact": "Potential impact on MedTech Inc.'s revenue and ability to negotiate future deals"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Price increase exceeds 20%",
+            "threshold": "20% above current price",
+            "reasoning": "Unacceptable increase in cost that would impact PharmaCorp's competitiveness"
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Order quantity falls below 500 units per month",
+            "threshold": "Below 500 units",
+            "reasoning": "Insufficient demand to justify MedTech Inc.'s costs and investment in the relationship"
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a long-term partnership with MedTech Inc. to ensure stable supply of pharmaceuticals.",
+            "importance": "critical",
+            "timeframe": "2-3 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular business meetings and collaborative problem-solving"
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$110 per unit (anchoring the negotiation with a middle-ground offer)",
+          "anchoringStrategy": "Using a fair but flexible starting point to set the tone for the negotiation"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Initial price discussion",
+              "possibleConcessions": [
+                "Accepting $110 per unit as a starting point"
+              ],
+              "triggerConditions": [
+                "MedTech Inc.'s response to initial offer"
+              ]
+            }
+          ],
+          "pacing": "Gradual concessions in subsequent stages"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "social-proof",
+            "applicationContext": "Emphasizing the value of a long-term partnership and PharmaCorp's loyalty to MedTech Inc.",
+            "fallbackOptions": [
+              "Reciprocity",
+              "consistency"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "Raw material costs, Production capacity, Market trends"
+          ],
+          "observationFocus": [
+            "Monitoring MedTech Inc.'s pricing strategy and market positioning"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Seeking third-party mediation or arbitration",
+            "conditions": "When a mutually acceptable solution cannot be reached through negotiation alone",
+            "risks": "Potential risks of appearing weaker in the negotiation"
+          }
+        ]
+      }
+    }
+  ]
+}

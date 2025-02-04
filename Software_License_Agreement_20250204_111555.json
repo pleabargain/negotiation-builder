@@ -1,0 +1,116 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation_A123",
+      "topic": {
+        "title": "Software License Agreement",
+        "description": "A new software license agreement is proposed for our company to use their latest version of a proprietary software. The terms and conditions are as follows: the company will pay $10,000 per year for a single user license, with an additional $5,000 for each additional user.",
+        "context": "Our company has been using this software for over two years now and has grown significantly due to its efficiency. We believe that our growth is justified by the benefits we have received from it.",
+        "industry": "Technology",
+        "expectedTimeframe": "2 weeks"
+      },
+      "parties": [
+        {
+          "id": "Party_1",
+          "name": "ABC Inc.",
+          "role": "Customer",
+          "interests": [
+            "Cost-effective solution",
+            "Good customer service"
+          ],
+          "constraints": [
+            "Limited budget",
+            "Dependence on the software for daily operations"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "Party_2",
+          "name": "XYZ Software Solutions",
+          "role": "Provider",
+          "interests": [
+            "Revenue generation",
+            "Protecting intellectual property"
+          ],
+          "constraints": [
+            "Competition from other software providers",
+            "Maintenance and update costs"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "Conflict_1",
+          "description": "The primary point of conflict is the pricing. ABC Inc. believes that $10,000 per year is too expensive for a single user license, while XYZ Software Solutions thinks it is fair considering the software's capabilities and development costs.",
+          "severity": "high",
+          "impact": "Impact on business operations due to the need for alternative software solutions.",
+          "relatedPoints": [
+            "The potential for additional users"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "Point_1",
+          "topic": "Pricing Structure",
+          "currentPosition": {
+            "party1Position": "$5,000 per year for a single user license",
+            "party2Position": "$10,000 per year for a single user license"
+          },
+          "acceptableRange": {
+            "minimum": "$4,000 per year for a single user license",
+            "maximum": "$15,000 per year for a single user license",
+            "preferredOutcome": "$8,000 per year for a single user license and $3,000 per additional user"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "NonNeg_1",
+          "description": "The non-negotiable point is the inclusion of intellectual property rights in the licensing agreement.",
+          "rationale": "Protecting our company's proprietary information and preventing unauthorized use or distribution.",
+          "impact": "Impact on our ability to defend our business interests."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Cost exceeds $12,000 per year",
+            "threshold": "$13,000",
+            "reasoning": "Exceeds the acceptable range for a single user license."
+          },
+          {
+            "condition": "Inadequate support or updates after purchase",
+            "threshold": "30 days of inactivity",
+            "reasoning": "Impact on business operations due to lack of necessary updates and support."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Rejection of the proposed pricing structure",
+            "threshold": "$4,000 per year for a single user license",
+            "reasoning": "Below-market pricing that may affect revenue generation."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "competitive",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a long-term partnership with XYZ Software Solutions while maintaining a balance between costs and benefits.",
+            "importance": "high",
+            "timeframe": "2-5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "cooperative"
+        }
+      },
+      "tactics": null
+    }
+  ]
+}

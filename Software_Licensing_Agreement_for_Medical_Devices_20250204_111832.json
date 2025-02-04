@@ -1,0 +1,182 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "2023-02-15-NEG12345",
+      "topic": {
+        "title": "Software Licensing Agreement for Medical Devices",
+        "description": "Negotiating a software licensing agreement between MedTech Inc. and Medical Device Corp.",
+        "context": "The medical device industry is highly regulated, with strict quality control measures in place.",
+        "industry": "Medical Devices",
+        "expectedTimeframe": "6-8 weeks"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "MedTech Inc.",
+          "role": "Licensee and software developer",
+          "interests": [
+            "Lowest cost, flexible licensing terms"
+          ],
+          "constraints": [
+            "Technical limitations, intellectual property protection"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "Medical Device Corp.",
+          "role": "Licensing party and equipment manufacturer",
+          "interests": [
+            "Higher revenue through software licensing fees"
+          ],
+          "constraints": [
+            "Regulatory compliance, proprietary technology protection"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Different interpretations of the software's functionality and technical limitations.",
+          "severity": "medium",
+          "impact": "Potential impact on revenue streams and intellectual property protection.",
+          "relatedPoints": [
+            "Technical specifications, licensing fees"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Licensing Fees and Structure",
+          "currentPosition": {
+            "party1Position": "Flat fee per unit sold",
+            "party2Position": "Variable fee based on revenue growth"
+          },
+          "acceptableRange": {
+            "minimum": "$10,000/year/unit",
+            "maximum": "$50,000/year/unit",
+            "preferredOutcome": "Tiered structure with increases at 20% intervals"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Technical Support and Updates",
+          "currentPosition": {
+            "party1Position": "Annual support package",
+            "party2Position": "Bi-annual support package with priority access to updates"
+          },
+          "acceptableRange": {
+            "minimum": "12 months of annual support",
+            "maximum": "18 months of bi-annual support with guaranteed updates within 6 weeks",
+            "preferredOutcome": "Priority support access with guaranteed update schedules"
+          },
+          "priority": "medium",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The software's intellectual property and proprietary technology cannot be disclosed or shared.",
+          "rationale": "Protecting MedTech Inc.'s investment in research and development.",
+          "impact": "Critical to maintaining a competitive edge in the market."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Revenue above $500,000/year",
+            "threshold": "100% increase from previous year's revenue",
+            "reasoning": "Unacceptable revenue growth rate for MedTech Inc."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Intellectual property disclosure to competitors.",
+            "threshold": "Disclosure of software code or technical specifications within 6 months",
+            "reasoning": "Loss of proprietary technology and competitive advantage"
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish MedTech Inc. as a leading software developer in the medical device industry.",
+            "importance": "critical",
+            "timeframe": "5-7 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular communication and collaborative problem-solving"
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "Tiered licensing structure with a flat fee per unit sold for the first $100,000 in annual revenue",
+          "anchoringStrategy": "Setting a realistic baseline to establish a foundation for negotiation"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "First round of negotiations",
+              "possibleConcessions": [
+                "Lower tier fee structure or reduced support package"
+              ],
+              "triggerConditions": [
+                "Preliminary agreement on key points"
+              ]
+            },
+            {
+              "stage": "Second round of negotiations",
+              "possibleConcessions": [
+                "Bi-annual support package with guaranteed updates within 6 weeks"
+              ],
+              "triggerConditions": [
+                "Agreement on licensing fees and structure"
+              ]
+            }
+          ],
+          "pacing": "Flexible, adapting to party feedback and concessions"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "authority",
+            "applicationContext": "Technical discussions regarding software functionality and limitations",
+            "fallbackOptions": [
+              "Seeking clarification or rephrasing the question"
+            ]
+          },
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Offering support package upgrades in exchange for increased licensing fees",
+            "fallbackOptions": [
+              "Negotiating alternative benefits or concessions"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What is the average annual revenue growth rate of Medical Device Corp.? How does this impact MedTech Inc.'s business?"
+          ],
+          "observationFocus": [
+            "Assessing the technical capabilities and limitations of the software being licensed",
+            "Evaluating the company's regulatory compliance processes and intellectual property protection"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Combining concessions on licensing fees and support package with incremental increases in revenue growth targets",
+            "conditions": "Meeting MedTech Inc.'s revenue projections while addressing party concerns about intellectual property and proprietary technology protection",
+            "risks": "Raising the stakes for both parties, potentially impacting their willingness to negotiate further."
+          }
+        ]
+      }
+    }
+  ]
+}

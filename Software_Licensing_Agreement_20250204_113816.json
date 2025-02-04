@@ -1,0 +1,112 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Neg001",
+      "topic": {
+        "title": "Software Licensing Agreement",
+        "description": "Negotiating a software licensing agreement for a new client.",
+        "context": "The client is interested in using our proprietary software for their business operations. They are looking for a fair and competitive pricing structure.",
+        "industry": "Technology",
+        "expectedTimeframe": "4-6 weeks"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "Acme Inc.",
+          "role": "Client",
+          "interests": [
+            "Best possible price",
+            "Flexible payment terms"
+          ],
+          "constraints": [
+            "Technical expertise limitations",
+            "Limited resources"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "TechCorp Software Solutions",
+          "role": "Software provider",
+          "interests": [
+            "Maximum revenue per unit sold",
+            "Long-term contract terms"
+          ],
+          "constraints": [
+            "Competitive market pressure",
+            "Limited staff resources"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Disagreement over pricing structure and payment terms.",
+          "severity": "medium",
+          "impact": "Potential for a deal-breaker if not resolved.",
+          "relatedPoints": [
+            "Technical requirements",
+            "Contract duration"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Pricing Structure",
+          "currentPosition": {
+            "party1Position": "Acme Inc. wants a discount for bulk orders.",
+            "party2Position": "TechCorp Software Solutions is willing to offer a standard pricing structure."
+          },
+          "acceptableRange": {
+            "minimum": "$10,000 per year",
+            "maximum": "$50,000 per year",
+            "preferredOutcome": "$20,000 per year"
+          },
+          "priority": null,
+          "flexibility": null
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The contract must include a clause for intellectual property protection.",
+          "rationale": "To protect our proprietary software from being copied or reverse-engineered by the client.",
+          "impact": "This adds to the overall cost of the agreement."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Unacceptable pricing structure",
+            "threshold": "$30,000 per year",
+            "reasoning": "If the price is higher than this threshold, we will look for alternative software providers."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Inadequate payment terms",
+            "threshold": "Payment due within 30 days of invoice receipt.",
+            "reasoning": "If the client fails to make timely payments, we will terminate the agreement and seek reimbursement from them."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "competitive",
+        "longTermObjectives": [
+          {
+            "objective": "To establish a long-term partnership with Acme Inc.",
+            "importance": "high",
+            "timeframe": "5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular business meetings and joint training sessions"
+        }
+      },
+      "tactics": null
+    }
+  ]
+}

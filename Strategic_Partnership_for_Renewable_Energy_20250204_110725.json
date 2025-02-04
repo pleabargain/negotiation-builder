@@ -1,0 +1,98 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "ABC123",
+      "topic": {
+        "title": "Strategic Partnership for Renewable Energy",
+        "description": "A company is seeking to partner with another firm to develop a large-scale renewable energy project.",
+        "context": "The two companies have been competitors in the industry for years, but both recognize the need for sustainable energy solutions.",
+        "industry": "Renewable Energy",
+        "expectedTimeframe": "12 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "GreenTech Inc.",
+          "role": "Investor and Developer",
+          "interests": [
+            "Cost-effective solution",
+            "Long-term partnership"
+          ],
+          "constraints": [
+            "Risk aversion",
+            "Limited resources"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "EcoEnergy Corp.",
+          "role": "Technology Provider and Installer",
+          "interests": [
+            "Revenue growth",
+            "Innovative solutions"
+          ],
+          "constraints": [
+            "Competition from other providers",
+            "Limited capacity"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Conflicting demands for equity allocation and revenue sharing.",
+          "severity": "high",
+          "impact": "Potential partnership termination",
+          "relatedPoints": [
+            "Intellectual property rights"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Equity Allocation",
+          "currentPosition": {
+            "party1Position": "{10% equity}",
+            "party2Position": "{5% equity}"
+          },
+          "acceptableRange": {
+            "minimum": "{8% equity}",
+            "maximum": "{12% equity}",
+            "preferredOutcome": "{9% equity}"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Intellectual Property Rights",
+          "rationale": "GreenTech Inc. has exclusive rights to the technology used in the project.",
+          "impact": "Any attempt to use the technology without permission would be a breach of contract."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "EcoEnergy Corp.'s unwillingness to renegotiate equity allocation terms.",
+            "threshold": "{6% equity}",
+            "reasoning": "GreenTech Inc. cannot tolerate such a significant concession, as it would compromise their investment strategy."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "GreenTech Inc.'s failure to provide adequate support and resources for the project.",
+            "threshold": "{50 million dollars}",
+            "reasoning": "EcoEnergy Corp. requires substantial investment and technical assistance to deliver the technology effectively, which is not guaranteed by GreenTech Inc."
+          }
+        ]
+      },
+      "strategies": null,
+      "tactics": null
+    }
+  ]
+}

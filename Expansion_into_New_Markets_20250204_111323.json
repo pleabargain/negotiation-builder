@@ -1,0 +1,153 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "NEX-001",
+      "topic": {
+        "title": "Expansion into New Markets",
+        "description": "This negotiation aims to secure a new distribution deal for our product in an emerging market.",
+        "context": "The global market is becoming increasingly competitive, and companies are looking to expand their reach to stay ahead.",
+        "industry": "Consumer Goods",
+        "expectedTimeframe": "6-12 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "Global Brands Inc.",
+          "role": "Supplier",
+          "interests": [
+            "Market share",
+            "Revenue growth"
+          ],
+          "constraints": [
+            "Limited resources for international expansion"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "Emerging Markets Co.",
+          "role": "Buyer",
+          "interests": [
+            "Access to new markets",
+            "Low costs of entry"
+          ],
+          "constraints": [
+            "Regulatory hurdles in the target market"
+          ],
+          "authorityLevel": "limited"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Differing opinions on market access and pricing",
+          "severity": "medium",
+          "impact": "Potential impact on revenue growth",
+          "relatedPoints": [
+            "Regulatory compliance"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Market Access and Pricing",
+          "currentPosition": {
+            "party1Position": "Global Brands Inc. is open to discussing market access terms.",
+            "party2Position": "Emerging Markets Co. requires a guaranteed minimum revenue per product line."
+          },
+          "acceptableRange": {
+            "minimum": "20% of projected revenue in the first year",
+            "maximum": "30% in the first two years",
+            "preferredOutcome": "25% in both years"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Global Brands Inc. cannot guarantee specific market access terms.",
+          "rationale": "Due to competitive pressures and limited resources.",
+          "impact": "Risk of losing revenue growth potential"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Revenue growth exceeds expected levels",
+            "threshold": "35% in the first year",
+            "reasoning": "Competitive pressure would force Global Brands Inc. to adjust pricing."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Regulatory hurdles are resolved quickly and favorably",
+            "threshold": "90 days from contract signing.",
+            "reasoning": "If regulatory compliance is achieved swiftly, the buyer will consider maintaining a partnership."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Increase revenue growth and expand market share in emerging markets.",
+            "importance": "critical",
+            "timeframe": "5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular joint business reviews"
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "A proposed distribution deal with a moderate revenue share.",
+          "anchoringStrategy": "Using the industry average as a reference point."
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Initial negotiation stage",
+              "possibleConcessions": [
+                "Revising market access terms"
+              ],
+              "triggerConditions": [
+                "Buyer's willingness to negotiate"
+              ]
+            }
+          ],
+          "pacing": "Gradual escalation of concessions"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "social-proof",
+            "applicationContext": "Using industry reports and success stories.",
+            "fallbackOptions": [
+              "Reciprocity"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are the target market's growth prospects?",
+            "How will regulatory compliance be handled?"
+          ],
+          "observationFocus": [
+            "Buyer's willingness to compromise on pricing terms."
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Offering an alternative partnership structure.",
+            "conditions": "When both parties seem unwilling to budge on the market access issue",
+            "risks": "Potential misalignment in expectations if the new structure is not as preferred by either party"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation-12345",
+      "topic": {
+        "title": "Software Licensing Agreement",
+        "description": "The parties are discussing a software licensing agreement for a new technology platform.",
+        "context": "The company is looking to expand its product line and has selected the technology as a key component. The supplier is unwilling to grant exclusive rights, and there is tension about the licensing fees.",
+        "industry": "Technology",
+        "expectedTimeframe": "6-8 weeks"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "ABC Corporation",
+          "role": "Licensee",
+          "interests": [
+            "Low licensing fees",
+            "Flexibility in usage rights"
+          ],
+          "constraints": [
+            "Limited budget for software development"
+          ],
+          "authorityLevel": "limited"
+        },
+        {
+          "id": "party2",
+          "name": "XYZ Software Inc.",
+          "role": "Supplier",
+          "interests": [
+            "High revenue from licensing fees",
+            "Control over usage rights"
+          ],
+          "constraints": [
+            "Competition from open-source software"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Licensing fees are too high",
+          "severity": "high",
+          "impact": "High costs could impact the company's ability to compete.",
+          "relatedPoints": [
+            "Exclusive rights",
+            "Flexibility in usage"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Licensing fees",
+          "currentPosition": {
+            "party1Position": "$100,000 per year",
+            "party2Position": "$200,000 per year"
+          },
+          "acceptableRange": {
+            "minimum": "$50,000 per year",
+            "maximum": "$150,000 per year",
+            "preferredOutcome": "$75,000 per year"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Exclusive rights",
+          "currentPosition": {
+            "party1Position": "Yes, exclusive rights are required.",
+            "party2Position": "No, we want to maintain flexibility in usage."
+          },
+          "acceptableRange": {
+            "minimum": "Non-exclusive rights",
+            "maximum": "Shared ownership",
+            "preferredOutcome": "Joint ownership"
+          },
+          "priority": "medium",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The supplier will not grant exclusive rights.",
+          "rationale": "This is a non-negotiable condition due to the company's business strategy.",
+          "impact": "The lack of exclusivity could impact the company's ability to compete in the market."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Licensing fees exceed $120,000 per year",
+            "threshold": "$120,000",
+            "reasoning": "If the fees are too high, we will consider alternative software options."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Exclusive rights are granted for more than 3 years.",
+            "threshold": "36 months",
+            "reasoning": "We want to maintain flexibility in usage and can't commit to exclusive rights for too long."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a strong partnership with the supplier.",
+            "importance": "critical",
+            "timeframe": "6-12 months"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "regular collaboration and open communication."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$75,000 per year for a non-exclusive license.",
+          "anchoringStrategy": "Using the preferred outcome as a starting point to negotiate downwards."
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "First round of negotiations",
+              "possibleConcessions": [
+                "Reducing licensing fees by 10%"
+              ],
+              "triggerConditions": [
+                "Party 2 agrees to non-exclusive rights"
+              ]
+            },
+            {
+              "stage": "Second round of negotiations",
+              "possibleConcessions": [
+                "Granting joint ownership"
+              ],
+              "triggerConditions": [
+                "Party 1 agrees to a higher licensing fee"
+              ]
+            }
+          ],
+          "pacing": "Gradual concessions to achieve a mutually beneficial outcome."
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Emphasizing the benefits of exclusivity for both parties.",
+            "fallbackOptions": [
+              "Highlighting the risks of open-source competition"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are your long-term revenue projections?",
+            "How will you ensure the technology remains competitive?"
+          ],
+          "observationFocus": [
+            "Supplier's willingness to negotiate on licensing fees",
+            "Supplier's concerns about exclusivity"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Joint ownership of the technology.",
+            "conditions": "Party 1 agrees to a higher licensing fee.",
+            "risks": "Potential loss of control over usage rights"
+          },
+          {
+            "approach": "Alternative software options.",
+            "conditions": "Licensing fees exceed $120,000 per year.",
+            "risks": "Opportunity cost of investing in alternative software development"
+          }
+        ]
+      }
+    }
+  ]
+}

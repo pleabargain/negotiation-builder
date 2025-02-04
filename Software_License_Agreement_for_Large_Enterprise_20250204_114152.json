@@ -1,0 +1,171 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "1234567890",
+      "topic": {
+        "title": "Software License Agreement for Large Enterprise",
+        "description": "Negotiate the terms of a software license agreement between a large enterprise and a technology company.",
+        "context": "The technology company is seeking to expand its customer base in the enterprise sector, while the large enterprise is looking to leverage the software's capabilities to enhance its operations.",
+        "industry": "Technology",
+        "expectedTimeframe": "Several weeks"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "Acme Corporation",
+          "role": "Large Enterprise Customer",
+          "interests": [
+            "Cost savings",
+            "Flexibility in customization"
+          ],
+          "constraints": [
+            "Limited technical resources",
+            "Concerns about data security"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "TechCorp",
+          "role": "Technology Company",
+          "interests": [
+            "Revenue growth",
+            "Market share expansion"
+          ],
+          "constraints": [
+            "Competition from other software providers",
+            "Potential reputational risks"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "The large enterprise is concerned about the potential for data security breaches, while the technology company emphasizes its robust security measures.",
+          "severity": "medium",
+          "impact": "Data loss and reputational damage",
+          "relatedPoints": [
+            "Cost of implementation",
+            "Support and maintenance costs"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "License Fees",
+          "currentPosition": {
+            "party1Position": "$100,000 per year",
+            "party2Position": "$150,000 per year"
+          },
+          "acceptableRange": {
+            "minimum": "$80,000 per year",
+            "maximum": "$200,000 per year",
+            "preferredOutcome": "$120,000 per year"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Customization and Support",
+          "currentPosition": {
+            "party1Position": "Standardized support package",
+            "party2Position": "Comprehensive customization options"
+          },
+          "acceptableRange": {
+            "minimum": "Basic support package",
+            "maximum": "Premium support package with extensive customization",
+            "preferredOutcome": "Customizable support package with moderate levels of complexity"
+          },
+          "priority": "medium",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "The technology company will not consider a license fee lower than $100,000 per year due to its development costs.",
+          "rationale": "Development and maintenance expenses are high for this software.",
+          "impact": "Potential loss of revenue if agreed upon"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Unacceptable support package limitations",
+            "threshold": "$50,000 per year",
+            "reasoning": "Limited support will hinder our ability to efficiently use the software."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Unreasonable customization requirements",
+            "threshold": "More than 20 customizations",
+            "reasoning": "Excessive customizations may compromise system performance and security."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a long-term partnership with TechCorp to leverage the software's capabilities.",
+            "importance": "high",
+            "timeframe": "Several years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular communication and joint problem-solving to enhance collaboration."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$120,000 per year with a basic support package",
+          "anchoringStrategy": "Start with the middle of the acceptable range to give room for concessions"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Initial discussion phase",
+              "possibleConcessions": [
+                "Adjusting the support package to a mid-level package"
+              ],
+              "triggerConditions": [
+                "TechCorp expresses willingness to negotiate"
+              ]
+            }
+          ],
+          "pacing": "Gradual concessions to maintain a collaborative tone"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Highlighting the benefits of cooperation and mutually beneficial outcomes.",
+            "fallbackOptions": [
+              "Using data-driven insights to support arguments"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "How does TechCorp measure the effectiveness of its software?",
+            "What specific challenges has it faced in implementing similar solutions?"
+          ],
+          "observationFocus": [
+            "TechCorp's willingness to engage in open communication and problem-solving"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Reframing the discussion around shared goals and values rather than fixed positions.",
+            "conditions": "Both parties have exhausted all other avenues of negotiation.",
+            "risks": "May lead to misunderstandings or miscommunications if not executed carefully."
+          }
+        ]
+      }
+    }
+  ]
+}

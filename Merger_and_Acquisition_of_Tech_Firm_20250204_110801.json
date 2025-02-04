@@ -1,0 +1,112 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation123",
+      "topic": {
+        "title": "Merger and Acquisition of Tech Firm",
+        "description": "A tech firm is looking to acquire a rival company, while the target company is hesitant due to concerns about losing autonomy.",
+        "context": "The tech industry has seen a rise in consolidation in recent years, making this deal particularly interesting.",
+        "industry": "Technology",
+        "expectedTimeframe": "6 months to 1 year"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "Tech Firm A",
+          "role": "Acquirer",
+          "interests": [
+            "Financial gain",
+            "Market share"
+          ],
+          "constraints": [
+            "Loss of autonomy for employees",
+            "Potential disruption to existing operations"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "Tech Firm B",
+          "role": "Target Company",
+          "interests": [
+            "Preservation of autonomy and independence",
+            "Protection of intellectual property"
+          ],
+          "constraints": [
+            "Financial constraints",
+            "Risk of losing market share"
+          ],
+          "authorityLevel": "limited"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Lack of transparency regarding financials during the acquisition process.",
+          "severity": "medium",
+          "impact": "Potential legal issues and reputational damage.",
+          "relatedPoints": [
+            "Insufficient employee engagement",
+            "Unaddressed concerns about data security"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Acquisition Price",
+          "currentPosition": {
+            "party1Position": "$100 million",
+            "party2Position": "$80 million"
+          },
+          "acceptableRange": {
+            "minimum": "$90 million",
+            "maximum": "$110 million",
+            "preferredOutcome": "$95 million"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Intellectual Property Agreement",
+          "rationale": "The IP agreement is non-negotiable due to the sensitive nature of the technology involved.",
+          "impact": "Potential legal disputes and reputational damage if not resolved"
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Insufficient consideration for employee retention",
+            "threshold": "$90 million",
+            "reasoning": "Employee turnover could lead to significant recruitment costs."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Unacceptable terms regarding data security",
+            "threshold": "$80 million",
+            "reasoning": "Data breaches could result in severe reputational damage."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish a long-term partnership with Tech Firm B",
+            "importance": "high",
+            "timeframe": "5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "regular collaboration and knowledge sharing"
+        }
+      },
+      "tactics": null
+    }
+  ]
+}
