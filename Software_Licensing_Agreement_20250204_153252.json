@@ -1,0 +1,186 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "2023-01-Negotiation-A",
+      "topic": {
+        "title": "Software Licensing Agreement",
+        "description": "A software company wants to license their proprietary software to a large corporation for use in their manufacturing operations.",
+        "context": "The corporation has been using similar software from another vendor, but is looking to switch due to higher costs and limited support.",
+        "industry": "Manufacturing Software",
+        "expectedTimeframe": "6-12 months"
+      },
+      "parties": [
+        {
+          "id": "party1",
+          "name": "SoftTech Inc.",
+          "role": "Proprietary software vendor",
+          "interests": [
+            "Maximum revenue",
+            "Long-term licensing agreement"
+          ],
+          "constraints": [
+            "Technical limitations of their current software",
+            "Limited budget for new licenses"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "party2",
+          "name": "CorpTech Inc.",
+          "role": "Large corporation",
+          "interests": [
+            "Lower costs",
+            "Flexibility in customizing the software"
+          ],
+          "constraints": [
+            "Existing infrastructure and software dependencies",
+            "High-stakes decision for production downtime"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "conflict1",
+          "description": "Technical limitations of SoftTech's current software",
+          "severity": "medium",
+          "impact": "Potential production downtime and revenue loss for CorpTech Inc.",
+          "relatedPoints": [
+            "Software customization options",
+            "Support and maintenance costs"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "point1",
+          "topic": "Licensing Fee",
+          "currentPosition": {
+            "party1Position": "$100,000/year",
+            "party2Position": "$50,000/year"
+          },
+          "acceptableRange": {
+            "minimum": "$80,000/year",
+            "maximum": "$120,000/year",
+            "preferredOutcome": "$90,000/year"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        },
+        {
+          "id": "point2",
+          "topic": "Customization Options",
+          "currentPosition": {
+            "party1Position": "Limited customization options",
+            "party2Position": "Full customization options"
+          },
+          "acceptableRange": {
+            "minimum": "Basic customization options",
+            "maximum": "Advanced customization options with additional costs",
+            "preferredOutcome": "Standardized customization package with minimal costs"
+          },
+          "priority": "medium",
+          "flexibility": "rigid"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "nonNeg1",
+          "description": "Support and Maintenance Costs",
+          "rationale": "SoftTech's primary revenue source and a critical component of their business model.",
+          "impact": "Potential loss of revenue for SoftTech if CorpTech Inc. refuses to pay these costs."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "CorpTech Inc.'s refusal to pay licensing fees",
+            "threshold": "$50,000/year",
+            "reasoning": "If the revenue is too low, SoftTech may not be able to sustain their business model."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "SoftTech's insistence on full customization options with no additional costs",
+            "threshold": "No more than 10% of total licensing fee",
+            "reasoning": "If the cost is too high, CorpTech Inc. may not be able to justify the expense."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Long-term software licensing agreement with CorpTech Inc.",
+            "importance": "high",
+            "timeframe": "6-12 months"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Expected continued collaboration on future projects and software development."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$90,000/year",
+          "anchoringStrategy": "Using a moderate opening position to set the tone for negotiation."
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Initial negotiation phase",
+              "possibleConcessions": [
+                "Reducing customization options",
+                "Increasing licensing fees"
+              ],
+              "triggerConditions": [
+                "CorpTech Inc.'s counteroffer"
+              ]
+            }
+          ],
+          "pacing": "Gradual concessions to achieve a mutually acceptable agreement."
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Highlighting SoftTech's investment in CorpTech Inc. and the value of their software.",
+            "fallbackOptions": [
+              "Emphasizing the risks of not entering a licensing agreement"
+            ]
+          },
+          {
+            "technique": "authority",
+            "applicationContext": "SoftTech's expertise and experience in the manufacturing software market.",
+            "fallbackOptions": [
+              "CorpTech Inc.'s own internal resources and expertise"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are CorpTech Inc.'s specific customization needs?",
+            "How will they use SoftTech's software?",
+            "What is their budget for licensing fees?"
+          ],
+          "observationFocus": [
+            "CorpTech Inc.'s decision-making process",
+            "SoftTech's willingness to negotiate"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Offering a compromise on customization options",
+            "conditions": "CorpTech Inc. agrees to reduce their requirements by 20%.",
+            "risks": "Potential loss of revenue for SoftTech if CorpTech Inc. refuses the offer."
+          },
+          {
+            "approach": "Agreeing to a longer-term licensing agreement",
+            "conditions": "SoftTech provides additional support and maintenance services for CorpTech Inc.",
+            "risks": "Potential overextension of SoftTech's resources and expertise."
+          }
+        ]
+      }
+    }
+  ]
+}

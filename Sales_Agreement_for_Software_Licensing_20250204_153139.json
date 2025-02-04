@@ -1,0 +1,181 @@
+{
+  "scenarios": [
+    {
+      "negotiationId": "Negotiation_A",
+      "topic": {
+        "title": "Sales Agreement for Software Licensing",
+        "description": "This is a brief description of the sales agreement for software licensing.",
+        "context": "The background information about the software and its intended use.",
+        "industry": "Software industry",
+        "expectedTimeframe": "Within the next two months"
+      },
+      "parties": [
+        {
+          "id": "Party_1",
+          "name": "ABC Corporation",
+          "role": "Client",
+          "interests": [
+            "Cost-effective pricing",
+            "Flexibility in licensing terms"
+          ],
+          "constraints": [
+            "Limited budget for software costs",
+            "Need for technical support"
+          ],
+          "authorityLevel": "full"
+        },
+        {
+          "id": "Party_2",
+          "name": "XYZ Software Solutions",
+          "role": "Vendor",
+          "interests": [
+            "Maximum revenue generation",
+            "Flexibility in pricing structures"
+          ],
+          "constraints": [
+            "Limited technical resources to support clients",
+            "Need for effective sales strategy"
+          ],
+          "authorityLevel": "full"
+        }
+      ],
+      "conflictPoints": [
+        {
+          "id": "Conflict_1",
+          "description": "One of the parties needs more time to test the software before committing to a purchase.",
+          "severity": "medium",
+          "impact": "Potential loss of revenue for either party.",
+          "relatedPoints": [
+            "Need for better communication between parties"
+          ]
+        }
+      ],
+      "negotiablePoints": [
+        {
+          "id": "Point_1",
+          "topic": "Pricing Structure",
+          "currentPosition": {
+            "party1Position": "$100,000 per year",
+            "party2Position": "$120,000 per year"
+          },
+          "acceptableRange": {
+            "minimum": "$90,000 per year",
+            "maximum": "$150,000 per year",
+            "preferredOutcome": "$110,000 per year"
+          },
+          "priority": "high",
+          "flexibility": "moderate"
+        }
+      ],
+      "nonNegotiablePoints": [
+        {
+          "id": "Non_Neg_1",
+          "description": "The software must be used exclusively for the client's internal operations.",
+          "rationale": "To ensure that the software meets the specific needs of the client.",
+          "impact": "Loss of revenue potential if the software is used by other clients."
+        }
+      ],
+      "walkawayConditions": {
+        "party1Conditions": [
+          {
+            "condition": "Unsatisfactory pricing terms",
+            "threshold": "$110,000 per year",
+            "reasoning": "Exceeds the acceptable range for the client's budget."
+          },
+          {
+            "condition": "Poor communication and technical support from the vendor",
+            "threshold": "Less than 3 hours of response time to client queries.",
+            "reasoning": "Neglects the client's need for effective technical support."
+          }
+        ],
+        "party2Conditions": [
+          {
+            "condition": "Unwillingness of the client to negotiate on pricing terms",
+            "threshold": "$110,000 per year",
+            "reasoning": "Does not align with the vendor's preferred revenue generation strategy."
+          },
+          {
+            "condition": "Insufficient resources and time allocated for software testing and evaluation",
+            "threshold": "Less than 30 days of testing and evaluation.",
+            "reasoning": "Prevents the vendor from maximizing its potential revenue."
+          }
+        ]
+      },
+      "strategies": {
+        "overallApproach": "collaborative",
+        "longTermObjectives": [
+          {
+            "objective": "Establish long-term partnerships with clients",
+            "importance": "critical",
+            "timeframe": "2-5 years"
+          }
+        ],
+        "relationshipGoals": {
+          "desiredOutcome": "strengthen",
+          "futureInteractions": "Regular check-ins and collaborative decision-making."
+        }
+      },
+      "tactics": {
+        "openingApproach": {
+          "initialOffer": "$100,000 per year",
+          "anchoringStrategy": "Setting a higher anchor to give room for concessions"
+        },
+        "concessionPlan": {
+          "sequence": [
+            {
+              "stage": "Initial Offer Stage",
+              "possibleConcessions": [
+                "$95,000 per year"
+              ],
+              "triggerConditions": [
+                "Client's initial response"
+              ]
+            },
+            {
+              "stage": "Counteroffer Stage",
+              "possibleConcessions": [
+                "$115,000 per year"
+              ],
+              "triggerConditions": [
+                "Client's rejection of the initial offer"
+              ]
+            }
+          ],
+          "pacing": "Flexible pricing to accommodate client needs"
+        },
+        "persuasionTechniques": [
+          {
+            "technique": "reciprocity",
+            "applicationContext": "Comparing prices with other clients or software solutions.",
+            "fallbackOptions": [
+              "Using authority-based persuasion"
+            ]
+          },
+          {
+            "technique": "social-proof",
+            "applicationContext": "Highlighting successful implementations and client testimonials.",
+            "fallbackOptions": [
+              "Utilizing expertise in the industry"
+            ]
+          }
+        ],
+        "informationGathering": {
+          "keyQuestions": [
+            "What are your current software costs?",
+            "How do you currently support your clients?"
+          ],
+          "observationFocus": [
+            "Monitoring the client's reaction to concessions and prices"
+          ]
+        },
+        "deadlockBreakers": [
+          {
+            "approach": "Escalating to senior management if necessary",
+            "conditions": "Client's refusal to negotiate or make a decision.",
+            "risks": "Potential loss of business if the client decides to terminate the contract."
+          }
+        ]
+      }
+    }
+  ]
+}
